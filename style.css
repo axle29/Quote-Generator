@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins&display=swap');
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-weight: 400;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #12172a;
+        
+      }
+
+      .author-info {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 16px;
+        color: rgb(55, 65, 81);
+      }
+
+      .author-info a {
+        text-decoration: none;
+      }
+      .gcontainer{
+        width: 475px;
+        min-height: 250px;
+      }
+      .qcontainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 30px;
+        width: 100%;
+        min-height: 200px;
+        background-color: #20293a;
+        background-image: url(resources/bg-image-random-quote.svg);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: auto;
+        border-radius: 10px;
+        box-shadow: 447px 304px 151px 0px rgba(0, 0, 0, 0);
+      }
+      .author{
+        font-size: 1rem;
+        font-weight: 500;
+        color: white;
+      }
+      .tags{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      .tags div{
+        padding: 1px 10px 3px 10px;
+        border: 1px solid #AEB0FF;
+        box-shadow: 0 0 0 0.5px #AEB0FF;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        color: #AEB0FF;
+        font-size: 0.625rem;
+      }
+      .quote{
+        font-size: 1.5rem;
+        font-weight: 300;
+        color: #E3E8EF;
+        margin-top: 12px;
+        text-align: center;
+      }
+      .buttons{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        gap: 10px;
+        height: 50px;
+      }
+      button{
+        display: flex;
+        align-items: center;
+        gap: 9px;
+        border-radius: 9px;
+        border-style: none;
+        background-color: #20293a;
+        color: #dee3e9;
+        height: 35px;
+        padding-left: 9px;
+        padding-right: 9px;
+        font-size: 1rem;
+        box-shadow: 447px 304px 151px 0px rgba(0, 0, 0, 0);
+      }
+      .buttons button:hover{
+        background-color: #dee3e9;
+        cursor: pointer;
+        color: #20293a;
+      }
+      .talkjr{
+        color: #20293a !important;
+        font-size: 12px; 
+        margin-left: 10px
+      }
+      .talkjr2{
+        color: #20293a !important;
+        font-size: 12px; 
+        margin-left: 10px
+      }
+      #talk{
+        color: #dee3e9;
+        font-size: 12px; 
+        margin-left: 10px
+      }
+      #talk2{
+        color: #dee3e9;
+        font-size: 12px; 
+        margin-left: 10px
+      }
